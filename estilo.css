@@ -11,3 +11,10 @@ h1 {
 
 
 }
+.menuPrincipal {
+  position: absolute;
+  background-color: rgb(157, 230, 123);
+  width: 100%;
+  
+  top: 0%;
+}
