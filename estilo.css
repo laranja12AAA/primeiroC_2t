@@ -44,14 +44,15 @@ li a:hover{
   color: black;
 } 
 .imgEstudo {
-    position: absolute;
+    position: relative;
+  
     width: 90%;
     height: 120px;
     background: #ffffff;
     top: 45px;
     left: 0;
     margin: 20px;
-    border-color: #23b4e0;
+    border-color: #947b5a
     border-width: 20px;
     border-style:double;
     padding: 20px;
@@ -78,3 +79,4 @@ li a:hover{
   position: absolute;
   top: 45px;
 }
+
