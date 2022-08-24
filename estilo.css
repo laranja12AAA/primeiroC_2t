@@ -3,7 +3,9 @@ body {
   padding: 0;
 }
 h1 {
-  text-align: left;
+  text-align: start;
+  position: relative;
+  width: 60%;
 }
 .caixa1 {
    position: static;
@@ -48,16 +50,16 @@ li a:hover{
   
     width: 90%;
     height: 120px;
-    background: #ffffff;
+    background: rgb(172, 109, 57);
     top: 45px;
     left: 0;
     margin: 20px;
-    border-color: #947b5a
+    border-color: rgb(168, 96, 37);
     border-width: 20px;
     border-style:double;
     padding: 20px;
-    display:flow-root;
-    justify-content: center;
+    display:flex;
+    justify-content:end;
 }
 #aguia {
    width: 20%;
@@ -68,9 +70,9 @@ li a:hover{
    width: 100%;
    height: 50px;
    background: #947b5a;
-   color:rgb(0, 0, 0)
+   color:rgb(0, 0, 0);
    left: 0;
-   display::grammar-error
+   display:flex;
    justify-content: center;
    font-size: 26px;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
