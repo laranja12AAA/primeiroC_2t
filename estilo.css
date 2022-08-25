@@ -6,6 +6,7 @@ h1 {
   text-align: start;
   position: relative;
   width: 60%;
+ 
 }
 .caixa1 {
    position: static;
@@ -47,14 +48,14 @@ li a:hover{
 } 
 .imgEstudo {
     position: relative;
-  
+   
     width: 90%;
-    height: 120px;
-    background: rgb(172, 109, 57);
+    height: 50px;
+    background: rgb(153, 109, 70);
     top: 45px;
     left: 0;
     margin: 20px;
-    border-color: rgb(168, 96, 37);
+    border-color: rgb(172, 104, 49);
     border-width: 20px;
     border-style:double;
     padding: 20px;
@@ -82,3 +83,9 @@ li a:hover{
   top: 45px;
 }
 
+.conteudo{
+  position: absolute;
+  width: 100%;
+  top: 200px ;
+ 
+}
